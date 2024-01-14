@@ -19,20 +19,19 @@ Clone the repository to your local machine and copy the relevant source files to
 
 # Usage
 
-Create an instance of the **Store** class and test its functionalities in main.cpp. Implement the store management operations based on the requirements of your retail environment.
+Create an instance of the **Customer** class and test its functionalities in main.cpp. Implement the Cart management operations based on the requirements of your retail environment.
     
     #include <iostream>
-    #include "store.h"
     #include "crt.h"
     #include "cstmr.h"
     #include "dprd.h"
     #include "prd.h"
 
     int main() {
-    // Create a Store instance
-    Store myStore;
+    // Create a Product instance
+    Producd myProduct;
 
-    // Perform inventory management operations using Cart, Customer, DiscountedProduct, and Product classes
+    // Perform inventory management operations using Cart, Customer, Discounted Product, and Product classes
     // ...
 
     return 0;
